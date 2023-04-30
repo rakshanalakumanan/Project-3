@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tot {
+  background-color: white;
+}
+
+.g1 {
+  text-align: center;
+}
+.g1 .h11 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.g1 .h12 {
+  color: grey;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.g2 {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 5%;
+  padding: 5px;
+  margin-top: 2%;
+}
+
+.h21,
+.h22,
+.h23,
+.h24,
+.h25,
+.h26 {
+  padding: 5%;
+}
+.h21 .h2a,
+.h22 .h2a,
+.h23 .h2a,
+.h24 .h2a,
+.h25 .h2a,
+.h26 .h2a {
+  font-size: 25px;
+  padding: 1%;
+}
+.h21 .h2b,
+.h22 .h2b,
+.h23 .h2b,
+.h24 .h2b,
+.h25 .h2b,
+.h26 .h2b {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+.h21 .fon,
+.h22 .fon,
+.h23 .fon,
+.h24 .fon,
+.h25 .fon,
+.h26 .fon {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 8px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 0%;
+}
+.h21 .fo,
+.h22 .fo,
+.h23 .fo,
+.h24 .fo,
+.h25 .fo,
+.h26 .fo {
+  float: right;
+  margin-right: 10%;
+}
+
+.h21,
+.h25 {
+  background-color: rgb(252, 230, 189);
+  border-radius: 20px;
+}
+
+.h22,
+.h26 {
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+.h23,
+.h24 {
+  background-color: rgb(250, 171, 184);
+  border-radius: 20px;
+}/*# sourceMappingURL=Index3.css.map */

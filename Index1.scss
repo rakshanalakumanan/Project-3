@@ -1,0 +1,138 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Total {
+  background-color: rgb(243, 243, 173);
+  position: relative;
+  height: 100vh;
+}
+
+.first {
+  width: 70%;
+  height: 80vh;
+}
+.fi {
+  text-align: left;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  .f1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .f2 {
+    font-size: 18px;
+    color: grey;
+    margin-left: -0.7%;
+    font-weight: bold;
+    padding: 2px;
+  }
+}
+.second {
+  .b1 {
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    z-index: 2;
+  }
+  .b1 img {
+    border-radius: 50%;
+  }
+  .b2 {
+    margin: 0%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    right: 550px;
+    width: 120px;
+    z-index: 5;
+  }
+  .b21,
+  .b31 {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .b22 {
+    font-size: 15px;
+    color: grey;
+  }
+  .b41 {
+    border-radius: 50%;
+  }
+  .b42 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px;
+  }
+  .b3 {
+    margin: 0%;
+    padding: 25px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    right: 180px;
+    width: 120px;
+    z-index: 5;
+  }
+
+  .b4 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    right: 500px;
+    width: 250px;
+    z-index: 3;
+    border: 1px solid white;
+    padding: 5px 3px;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+  }
+}
+
+.third {
+  position: absolute;
+  width: 30%;
+  top: 0%;
+  right: 0;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+}
+.both {
+  display: flex;
+  gap: 3rem;
+  padding: 30px;
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 7%;
+}
+.both1 {
+  border: none;
+  font-weight: bold;
+  background-color: rgb(231, 106, 154);
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 12px;
+}
+.both .both2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+.i {
+  vertical-align: -1;
+  color: black;
+  font-size: 50px;
+}
